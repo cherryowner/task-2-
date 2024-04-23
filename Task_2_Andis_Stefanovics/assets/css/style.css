@@ -1,0 +1,670 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+width: 1366px;
+height: 3651px;
+    color: #fff;
+
+}
+
+.site-header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 1367px;
+    height: 120px;
+    left: -1px;
+    gap: 0px;
+    opacity: 1px;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 1rem;
+    position: absolute;
+}
+
+.header-content {
+    width: 1242px;
+    height: 146px;
+    margin: 0 auto; /* This centers the header content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.logo-container {
+    position: absolute;
+    width: 159px;
+height: 146px;
+top: -50px;
+left: 62px;
+gap: 0px;
+opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+width: 159px;
+height: 146px;
+left: 62px;
+top: -50px;
+
+
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.site-nav ul li a {
+    position: absolute;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #060606;
+}
+
+.main-banner {
+    width: 1366px;
+    height: 722px;
+    top: 47px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+.main-banner-image {
+    position: absolute;
+    width: 1366px;
+    height: 722px;
+    top: 47px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+
+
+.play-button-background,
+.play-button-foreground {
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    cursor: pointer; /* Makes the element clickable */
+    opacity: 1; /* Set opacity to 1 to make it visible */
+}
+
+.play-button-background {
+    z-index: 1; /* Ensures that this image is behind the foreground image */
+    width: 80px; /* Width of the background image */
+    height: 80px; /* Height of the background image */
+    top: 366px; /* Position from the top of the body/website */
+    left: 640px; /* Position from the left of the body/website */
+}
+
+.play-button-foreground {
+    z-index: 2; /* Ensures that this image is on top of the background image */
+    width: 86px; /* Width of the foreground image */
+    height: 83px; /* Height of the foreground image */
+    top: 366px; /* Position from the top of the body/website */
+    left: 640px; /* Position from the left of the body/website */
+}
+
+
+
+.main-content {
+    position: absolute;
+    padding: 1rem;
+    margin-top: 150px;
+    /* Additional styling */
+}
+
+.about {
+    /* Styling for about section */
+        width: 654px;
+        height: 114px;
+        margin: 0 auto; /* Centers the div horizontally */
+     /* Position relative to its normal position */
+        top: 919px;
+        left: 359px; /* Pushes the box down from the top */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        text-align: center;
+        color: #2F4858;
+        opacity: 1; /* Ensure it's fully visible */
+        margin-top: 150px;
+}
+
+
+
+.gallery-item {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+#ripped-6-7 {
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: 1182px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;    
+    z-index: 2; /* Higher than the gallery image */
+  }
+  
+  #ripped-6-8 {
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: 1526px;
+    gap: 0px;
+    opacity: 1px;
+    bottom: -55px; /* Adjust this value so it sits at the bottom of the gallery item */
+    left: 0;
+    z-index: 2; /* Higher than the gallery image */
+  }
+
+#zanda-1 {
+ /* Zanda_1 */
+width: 328px;
+height: 355px;
+left: 0px;
+top: 1197px;
+background: url(Zanda_1.jpg);
+ /* Adjust as necessary */
+}
+
+#sibilla-4 {
+    width: 334px;
+    height: 364px;
+    left: 328px; /* Adjust as necessary */
+    top: 1202px; /* Adjust as necessary */
+}
+
+#brinuma-meita-15 {
+    width: 298px;
+    height: 180px;
+    left: 662px; /* Adjust as necessary */
+    top: 1202px; /* Adjust as necessary */
+}
+
+#alina-1 {
+    width: 298px;
+    height: 184px;
+    left: 662px; /* Adjust as necessary */
+    top: 1382px; /* Adjust as necessary */
+}
+
+#anda-2 {
+    width: 406px;
+    height: 383px;
+    left: 960px; /* Adjust as necessary */
+    top: 1183px; /* Adjust as necessary */
+}
+
+#pieteikt-sapni-btn1 {
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: 300px;
+    top: 1810px;
+    background-image: url('assets\img\Poga Pieteikt Sapni (1).png');
+    background-size: cover;
+    z-index: 10;
+}
+
+#pieteikt-sapni-btn2 {
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: 832px;
+    top: 1810px;
+    background-image: url('assets/img/Poga Pieteikt Sapni (2).png');
+    background-size: cover;
+}
+
+#pieteikt-sapni-btn3 {
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: 592px; /* Adjust this value based on actual position */
+    top: 2615px; /* Adjust this value based on actual position */
+    background-image: url('assets\img\Poga Pieteikt Sapni.png');
+    background-size: cover;
+}
+
+
+#velies-piepildit-sapni,
+#velies-palidzet-piepildit-sapni {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F4858;
+}
+
+#velies-piepildit-sapni {
+    width: 394px;
+    height: 29px;
+    left: 220px;
+    top: 1731px;
+}
+
+#velies-palidzet-piepildit-sapni {
+    width: 500px;
+    height: 29px;
+    left: 698px;
+    top: 1731px;
+}
+
+#sazinaties-ar-mums {
+    position: absolute;
+    width: 819px;
+    height: 48px;
+    left: 274px;
+    top: 2010px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F4858;
+}
+
+
+/* Group-9 Section Styles */
+.group-9 {
+    position: absolute;
+    width: 1366px;
+    height: 481.59px;
+    left: 0;
+    top: 2827px; /* Adjust this value so that group-9 appears right above the footer */
+    background-color: #FFCB66; /* Yellow background */
+    z-index: 10; /* Ensure it's above other elements if using absolute positioning */
+}
+
+/* Supporter Title Style */
+.supporters-title {
+    width: 394px;
+    height: 29px;
+    top: 2927px;
+    left: 486px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2F4858;
+}
+
+.logo {
+    margin: 0 20px; /* Add space between logos */
+    vertical-align: middle; /* Align logos vertically in the center */
+    display: inline-block; /* Display logos in line */
+}
+
+
+/* Individual Logo Styles */
+#logo-teikums{
+
+position: absolute;
+width: 241.95px;
+height: 80px;
+left: 168px;
+top: 3045px;
+
+}
+
+#logo-sem{
+    position: absolute;
+    width: 209.32px;
+    height: 80px;
+    left: 495px;
+    top: 3045px;
+    /* Additional styles or background image */
+}
+
+#logo-citybee{
+    position: absolute;
+    width: 238.96px;
+    height: 80px;
+    left: 789px;
+    top: 3045px;
+    background-image: url('path/to/Citybee-logo.png'); /* Adjust path as needed */
+}
+
+#logo-linear{
+    position: absolute;
+    width: 84.77px;
+    height: 120px;
+    left: 1113px;
+    top: 3026px;
+    background-image: url('path/to/logo1.png'); /* Adjust path as needed */
+}
+
+/* Additional styles can be added below as necessary */
+
+
+/* Footer Content Styles */
+.site-footer {
+
+position: absolute;
+width: 1366px;
+height: 376px;
+left: 0px;
+top: 3275px;
+background-color: #2F4858;
+
+}
+
+.social-icon {
+    position: absolute;
+     /* This will need to be removed or adjusted based on your actual images */
+    cursor: pointer; /* Indicates the icon is clickable */
+    /* Adjust the size as needed based on your actual images */
+    width: 40px;
+    height: 40px;
+}
+
+.facebook-icon {
+    width: 18px;
+    height: 36px;
+    top: 255px;
+    left: 1221px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.instagram-icon {
+    width: 36px;
+    height: 36px;
+    top: 255px;
+    left: 1268px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.footer-logo {
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    left: 62px;
+    top: 73px;
+}
+
+.copy-right-text {
+    position: absolute;
+    width: 182px;
+    height: 38px;
+    top: 325px;
+    left: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #FFFFFF;
+}
+
+/* Footer Text Items */
+.association-name, .contact-name, .email, .phone, .address, .privacy-policy, .footer-bank-details, .footer-item {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: right;
+    opacity: 1;
+}
+
+.association-name {
+    width: 287px;
+height: 24px;
+top: 70px;
+left: 642px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.26px;
+text-align: left;
+
+}
+
+.contact-name {
+    width: 182px;
+height: 45px;
+top: 71px;
+left: 1120px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.26px;
+text-align: right;
+
+}
+
+.email {
+
+width: 394px;
+height: 45px;
+top: 93px;
+left: 908px;
+gap: 0px;
+opacity: 0px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21.94px;
+color: #FFFFFF;
+text-align: right;
+
+}
+
+.phone {
+    width: 182px;
+height: 21px;
+top: 150px;
+left: 1120px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: right;
+
+}
+
+.address {
+    width: 315px;
+height: 22px;
+top: 181px;
+left: 987px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: right;
+
+}
+
+.privacy-policy {
+    width: 190px;
+    height: 14px;
+    top: 342px;
+    left: 1114px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: right;
+
+    
+}
+
+.footer-bank-details {
+    width: 279px;
+    font-size: 14px;
+}
+
+.footer-items-container {
+    text-align: left;
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    width: 100%; /* This ensures that the container spans the entire width of the footer */
+    display: flex;
+    justify-content: space-between; /* This will space out your items evenly */
+    padding: 0 20px; /* Adjust padding as needed */
+    /* Other styles */
+}
+
+.footer-item {
+    text-align: left;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF; /* Text color */
+}
+
+
+.ideja {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    top: 71px;
+    left: 384px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.piesaki-sapni {
+    position: absolute;
+    width: 182px;
+    height: 24px;
+    top: 116px;
+    left: 381px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.uznemejiem {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    top: 161px;
+    left: 381px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.sapnu-banka {
+    position: absolute;
+    width: 123px;
+    height: 45px;
+    top: 202px;
+    left: 381px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.sapnus-atbalsta {
+    position: absolute;
+    width: 179px;
+    height: 45px;
+    top: 246px;
+    left: 381px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.iedvesmas-stasti {
+    position: absolute;
+    width: 179px;
+    height: 29px;
+    top: 291px;
+    left: 381px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#registration-number {
+    width: 279px;
+    height: 24px;
+    top: 116px;
+    left: 642px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+
+}
+
+#bank-name {
+    width: 279px;
+height: 23px;
+top: 150px;
+left: 642px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+
+}
+
+#bank-account {
+    width: 279px;
+    height: 19px;
+    top: 182px;
+    left: 642px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+}
